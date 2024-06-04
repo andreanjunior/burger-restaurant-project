@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>
+      .small-image {
+        max-width: 400px;
+        margin-left: 50px;
+      }
+    </style>
+    <title>Projeto Colection</title>
+  </head>
+  <body>
+    <header>
+      <img src="./img/logo.png" alt="logo" />
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Hambúrgueres</li>
+          <li>Fale Conosco</li>
+        </ul>
+      </nav>
+    </header>
+    <section class="container">
+      <div class="list">
+        <div class="item active">
+          <div class="burger-img">
+            <img
+              src="./img/—Pngtree—burger fast food_15157646.png"
+              alt="burguer 1"
+              class="small-image"
+            />
+          </div>
+          <div class="content">
+            <p class="burger-information">Burger Gourmet</p>
+            <h2>Picanha-Prime</h2>
+            <p class="description">
+              Suculenta picanha grelhada em pão brioche, com cheddar derretido,
+              cebolas caramelizadas, alface, tomate fresco e molhos especiais.
+              Acompanha batatas rústicas.
+            </p>
+            <button class="information">Fazer pedido</button>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="burger-img">
+            <img src="./img/png-4.png" alt="burguer 1" class="small-image" />
+          </div>
+          <div class="content">
+            <p class="burger-information">Mais Pedido</p>
+            <h2>X-Tudo</h2>
+            <p class="description">
+              Um clássico completo: hambúrguer suculento, bacon crocante,
+              presunto, queijo, alface, tomate, ovo frito e molho especial, tudo
+              em um pão macio. Acompanha batatas fritas.
+            </p>
+            <button class="information">Fazer pedido</button>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="burger-img">
+            <img src="./img/png-2.png" alt="burguer 1" class="small-image" />
+          </div>
+          <div class="content">
+            <p class="burger-information">Delicioso</p>
+            <h2>Super-Bacon</h2>
+            <p class="description">
+              Hambúrguer suculento com bacon crocante, queijo derretido, alface,
+              tomate e molho especial em um pão macio. Acompanha batatas fritas.
+            </p>
+            <button class="information">Fazer pedido</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="arrows">
+        <button id="prev">
+          <img src="./img/arrow.png" alt="imagen seta esquerda" />
+        </button>
+
+        <button id="next">
+          <img src="./img/arrow.png" alt="imagen seta direita" />
+        </button>
+      </div>
+
+      <div class="indicators">
+        <div class="number">01</div>
+        <ul>
+          <li class="active"></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </section>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
